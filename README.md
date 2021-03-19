@@ -1,12 +1,14 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/lucaskoval/">
-    <img alt="Avatar" src="src\images\lucas.png"/>
+    <img alt="Avatar" src="src\images\gh-user.png"/>
   </a>
 </p>
 
 <h1 align="center">
   Portfolio | Lucas Koval - Full Stack Developer
 </h1>
+
+## LinkedIn: [https://www.linkedin.com/in/lucaskoval/](https://www.linkedin.com/in/lucaskoval/)
 
 ## 🌟 Credits to Jacobo Martinez for the incredible work with the template
 
