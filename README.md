@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/lucaskoval/">
-    <img alt="Avatar" src="src\images\gh-user.png"/>
+    <img alt="Avatar" src="src\images\gh-image.png"/>
   </a>
 </p>
 
