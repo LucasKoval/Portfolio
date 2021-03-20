@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'lucas.png',
   paragraphOne: 'I was born in Corrientes, Argentina on October 20, 1988 and I currently reside in the city of La Plata, Buenos Aires. I am a Freelance Full Stack Developer oriented to e-commerce development with NodeJS (back-end) and ReactJS (front-end) as the main pillars of my work.',
   paragraphTwo: 'I love what I do and I consider myself an organized, methodical, and collaborative person working in groups. I always seek to learn from my colleagues, as well as generate feedback that can help the team grow. My goal is to belong to a company that helps me strengthen my skills and acquire new ones.',
-  paragraphThree: '* SKILLS: JavaScript - HTML - CSS - ReactJS - NodeJS - ExpressJS - MVC Architecture - MySQL / Sequelize - APIs - Postman - Git / GitHub - Scrum - Responsive Design - Spanish (Native) - English (Intermediate).',
+  paragraphThree: 'SKILLS: JavaScript - HTML - CSS - ReactJS - NodeJS - ExpressJS - MVC Architecture - MySQL / Sequelize - APIs - Postman - Git / GitHub - Scrum - Responsive Design - Spanish (Native) - English (Intermediate).',
   resume: 'https://drive.google.com/file/d/1JjKz8rMgnQcy5Xg71M94vVD729t6pG1J/view?usp=sharing', //https://drive.google.com/u/0/uc?id=1JjKz8rMgnQcy5Xg71M94vVD729t6pG1J&export=download
   //if no resume, the button will not show up
 };
@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'bbk.png',
+    img: 'babieka.png',
     title: 'Babieka - E-Commerce',
     info: "E-Commerce website dedicated to the sale of women's footwear.",
     info2: '* APPLIED TECHNOLOGIES: NodeJS - ExpressJS - HTML - CSS - Javascript - EJS Template Engine - APIs - MySQL / Sequelize - Git - Scrum.',
@@ -38,7 +38,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'dash.png',
+    img: 'dashboard.png',
     title: 'Babieka - Dashboard',
     info: "Statistics dashboard for Babieka website.",
     info2: '* APPLIED TECHNOLOGIES: ReactJS - APIs - Bootstrap - Git - Scrum.',
@@ -47,7 +47,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'hnc.png',
+    img: 'hacker.png',
     title: 'HackerNews-clone',
     info: "Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.",
     info2: '* APPLIED TECHNOLOGIES: ReactJS - APIs - Bootstrap - Git.',
