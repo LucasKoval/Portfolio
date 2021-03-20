@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'babieka.png',
     title: 'Babieka - E-Commerce',
     info: "E-Commerce website dedicated to the sale of women's footwear.",
-    info2: '* APPLIED TECHNOLOGIES: NodeJS - ExpressJS - HTML - CSS - Javascript - EJS Template Engine - APIs - MySQL / Sequelize - Git - Scrum.',
+    info2: '* Applied Technologies: NodeJS - ExpressJS - HTML - CSS - JavaScript - EJS Template Engine - APIs - MySQL / Sequelize - Git - Scrum.',
     url: 'https://babieka.herokuapp.com/',
     repo: 'https://github.com/LucasKoval/jfl-babieka', // if no repo, the button will not show up
   },
@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'dashboard.png',
     title: 'Babieka - Dashboard',
     info: "Statistics dashboard for Babieka website.",
-    info2: '* APPLIED TECHNOLOGIES: ReactJS - APIs - Bootstrap - Git - Scrum.',
+    info2: '* Applied Technologies: ReactJS - APIs - Bootstrap - Git - Scrum.',
     url: 'https://babieka-dashboard.vercel.app/',
     repo: 'https://github.com/LucasKoval/jfl-dashboard', // if no repo, the button will not show up
   },
@@ -50,7 +50,7 @@ export const projectsData = [
     img: 'hacker.png',
     title: 'HackerNews-clone',
     info: "Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.",
-    info2: '* APPLIED TECHNOLOGIES: ReactJS - APIs - Bootstrap - Git.',
+    info2: '* Applied Technologies: ReactJS - APIs - Bootstrap - Git.',
     url: 'https://hacker-news-clone-ten.vercel.app/',
     repo: 'https://github.com/LucasKoval/HackerNews-clone', // if no repo, the button will not show up
   },
