@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I was born in Corrientes, Argentina on October 20, 1988 and I currently reside in the city of La Plata, Buenos Aires. I am a Freelance Full Stack Developer oriented to e-commerce development with NodeJS (back-end) and ReactJS (front-end) as the main pillars of my work.',
   paragraphTwo: 'I love what I do and I consider myself an organized, methodical, and collaborative person working in groups. I always seek to learn from my colleagues, as well as generate feedback that can help the team grow. My goal is to belong to a company that helps me strengthen my skills and acquire new ones.',
   paragraphThree: 'SKILLS: JavaScript - HTML - CSS - ReactJS - NodeJS - ExpressJS - MVC Architecture - MySQL / Sequelize - APIs - Postman - Git / GitHub - Scrum - Responsive Design - Spanish (Native) - English (Intermediate).',
-  resume: 'https://drive.google.com/file/d/1JjKz8rMgnQcy5Xg71M94vVD729t6pG1J/view?usp=sharing', //https://drive.google.com/u/0/uc?id=1JjKz8rMgnQcy5Xg71M94vVD729t6pG1J&export=download
+  resume: 'https://drive.google.com/file/d/1k1b9YPU0BLAt_yJp-und3OK1Y6dQdw2X/view?usp=sharing', //https://drive.google.com/u/0/uc?id=1JjKz8rMgnQcy5Xg71M94vVD729t6pG1J&export=download
   //if no resume, the button will not show up
 };
 
