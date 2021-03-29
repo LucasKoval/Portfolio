@@ -47,6 +47,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'aerolab.png',
+    title: "Aerolab's Catalog View",
+    info: "Project made for the Aerolab's Coding Challenge. It consists of creating a responsive catalog view for a loyalty program application. The main objective of the product is to help users redeem items through a points-based system (In pregress).",
+    info2: '* Applied Technologies: NodeJS - ExpressJS - HTML - CSS - Bootstrap - JavaScript - EJS Template Engine - APIs - JWT - Git.',
+    url: 'https://aerolab-challenge-lkdev.herokuapp.com/',
+    repo: 'https://github.com/LucasKoval/Aerolab-Challenge', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'hacker.png',
     title: 'HackerNews-clone',
     info: "Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.",
