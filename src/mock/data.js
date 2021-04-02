@@ -57,7 +57,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'hacker.png',
-    title: 'Hacker News https://hacker-news-clone-lkdev.vercel.app/Clone',
+    title: 'Hacker News Clone',
     info: "Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.",
     info2: '* Applied Technologies: ReactJS - APIs - Bootstrap - Git.',
     url: 'https://hacker-news-clone-lkdev.vercel.app/',
