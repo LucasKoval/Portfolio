@@ -49,7 +49,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'aerolab.png',
     title: "Aerolab's Catalog View",
-    info: "Project made for the Aerolab coding challenge. It consists of a responsive catalog view for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system (In pregress).",
+    info: "Project made for the Aerolab coding challenge. It consists of a responsive catalog view for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system.",
     info2: '* Applied Technologies: NodeJS - ExpressJS - HTML - CSS - Bootstrap - JavaScript - EJS Template Engine - APIs - JWT - Git.',
     url: 'https://aerolab-challenge-lkdev.herokuapp.com/',
     repo: 'https://github.com/LucasKoval/Aerolab-Challenge', // if no repo, the button will not show up
