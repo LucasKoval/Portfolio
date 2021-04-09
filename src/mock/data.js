@@ -56,6 +56,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'pokedex.png',
+    title: "Pokedex Challenge",
+    info: "Pokemon encyclopedia where you can search and view the different pokemons and their characteristics and statistics (In progress).",
+    info2: '* Applied Technologies: NextJS - ReactJS - HTML - CSS - Bootstrap - JavaScript - APIs - Git.',
+    url: 'https://pokedex-challenge-lkdev.vercel.app/',
+    repo: 'https://github.com/LucasKoval/Pokedex-Challenge', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'hacker.png',
     title: 'Hacker News Clone',
     info: "Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.",
