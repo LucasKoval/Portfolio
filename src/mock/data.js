@@ -58,7 +58,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'pokedex.png',
     title: "Pokedex Encyclopedia",
-    info: "Pokemon encyclopedia where you can search and view the different pokemons and their characteristics and statistics (In progress).",
+    info: "Pokemon encyclopedia where you can search and view the different pokemons and their characteristics and statistics.",
     info2: '* Applied Technologies: ReactJS - NextJS - JavaScript (ES6+) - APIs - CSS - Bootstrap - Git.',
     url: 'https://pokedex-challenge-lkdev.vercel.app/',
     repo: 'https://github.com/LucasKoval/Pokedex-Challenge', // if no repo, the button will not show up
