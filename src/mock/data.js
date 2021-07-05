@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'libooks.jpg',
+    title: 'LiBooks - E-Commerce',
+    info: "E-Commerce website dedicated to the sale of books powered by La Nación.",
+    info2: '* Applied Technologies: ReactJS - NextJS - JavaScript (ES6+) - GraphQL - Styled Components - Material UI - Git - Scrum.',
+    url: 'https://beta.libooks.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'babieka.png',
     title: 'Babieka - E-Commerce',
     info: "E-Commerce website dedicated to the sale of women's footwear.",
