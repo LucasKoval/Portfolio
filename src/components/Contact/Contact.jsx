@@ -11,6 +11,57 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
+        <Title title="Skills" />
+        <Fade bottom duration={1000} delay={800} distance="30px">
+          <div className="contact-wrapper">
+            <table style={{ display: 'flex', justifyContent: 'space-around' }}>
+              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+                <td>JavaScript | ES6+</td>
+                <td>HTML | EJS | JSX</td>
+                <td>CSS | Styled-Components </td>
+                <td>Bootstrap | Material-UI </td>
+              </tr>
+              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+                <td>ReactJS</td>
+                <td>NextJS</td>
+                <td>Responsive Design</td>
+                <td>MVC Architecture</td>
+              </tr>
+              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+                <td>NodeJS</td>
+                <td>ExpressJS</td>
+                <td>MySQL | Sequelize</td>
+                <td>REST APIs | GraphQL APIs</td>
+              </tr>
+            </table>
+          </div>
+        </Fade>
+      </Container>
+
+      <Container style={{ marginBottom: '22rem' }}>
+        <Fade bottom duration={1000} delay={800} distance="30px">
+          <div className="contact-wrapper">
+            <table style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+                <td>Postman</td>
+                <td>Git | GitHub</td>
+                <td>Trello | Jira</td>
+                <td>Slack | MS Teams</td>
+                <td>Agile Methodologies - Scrum</td>
+              </tr>
+              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+                <td>Teamwork</td>
+                <td>Communication</td>
+                <td>Leadership</td>
+                <td>Problem Solving</td>
+                <td>Organization</td>
+              </tr>
+            </table>
+          </div>
+        </Fade>
+      </Container>
+
+      <Container>
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
