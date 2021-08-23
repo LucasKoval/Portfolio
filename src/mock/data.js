@@ -75,6 +75,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'github.jpg',
+    title: 'GitHub Profile Finder',
+    info: 'GitHub profile search engine developed for the "Take Home Test" challenge.',
+    info2:
+      'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components - Bootstrap | GraphQL APIs | Postman | Git - GitHub.',
+    url: 'https://take-home-test-lkdev.vercel.app/',
+    repo: 'https://github.com/LucasKoval/Take-Home-Test', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'pokedex.png',
     title: 'Pokedex Encyclopedia',
     info:
