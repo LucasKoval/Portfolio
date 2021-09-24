@@ -13,42 +13,59 @@ const Contact = () => {
       <Container>
         <Title title="Skills" />
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
+          <div className="contact-wrapper" style={{ padding: '0' }}>
             <table style={{ display: 'flex', justifyContent: 'space-around' }}>
-              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+              <tr
+                className="contact-wrapper__text"
+                style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
+              >
                 <td>JavaScript | ES6+</td>
                 <td>HTML | EJS | JSX</td>
                 <td>CSS | Styled-Components </td>
                 <td>Bootstrap | Material-UI </td>
               </tr>
-              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+              <tr
+                className="contact-wrapper__text"
+                style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
+              >
                 <td>ReactJS</td>
                 <td>NextJS</td>
                 <td>Responsive Design</td>
                 <td>MVC Architecture</td>
-              </tr>
-              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
-                <td>NodeJS</td>
-                <td>ExpressJS</td>
-                <td>MySQL | Sequelize</td>
-                <td>REST APIs | GraphQL APIs</td>
               </tr>
             </table>
           </div>
         </Fade>
       </Container>
 
-      <Container style={{ marginBottom: '22rem' }}>
+      <Container style={{ marginBottom: '10rem' }}>
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
-            <table style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-              <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+          <div className="contact-wrapper" style={{ padding: '0' }}>
+            <table style={{ display: 'flex', justifyContent: 'space-around' }}>
+              <tr
+                className="contact-wrapper__text"
+                style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
+              >
+                <td>NodeJS</td>
+                <td>ExpressJS</td>
+                <td>JestJS</td>
+                <td>MySQL | Sequelize</td>
+                <td>REST APIs | GraphQL APIs</td>
+              </tr>
+              <tr
+                className="contact-wrapper__text"
+                style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
+              >
                 <td>Postman</td>
                 <td>Git | GitHub</td>
                 <td>Trello | Jira</td>
                 <td>Slack | MS Teams</td>
                 <td>Agile Methodologies - Scrum</td>
               </tr>
+            </table>
+          </div>
+          <div className="contact-wrapper">
+            <table style={{ display: 'flex', justifyContent: 'center' }}>
               <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
                 <td>Teamwork</td>
                 <td>Communication</td>
