@@ -26,23 +26,24 @@ export const aboutData = {
     'My goal is to grow in a company where I can strengthen my skills and acquire new ones.',
   resume: 'https://drive.google.com/file/d/1YaJm8UvDhytAHgdgMO-DiDV9Hw66CZwv/view?usp=sharing',
   curriculum: 'https://drive.google.com/file/d/1qKKQNZDalmue6n__C1Q2ux6nC0ZsYVUc/view?usp=sharing',
-  //if no resume, the button will not show up ** SUBIR CVs **
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
+    // LIBOOKS
     id: nanoid(),
     img: 'libooks.jpg',
     title: 'LiBooks | E-Commerce',
     info:
       'Online Bookstore made for the the sale of physical and digital books powered by La Nación.',
     info2:
-      'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components | Material-UI | GraphQL APIs | Postman | Git - GitHub | Jira - MS-Teams | Scrum.',
+      'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components | Material-UI | JestJS | GraphQL APIs | Postman | Git - GitHub | Jira - MS-Teams | Scrum.',
     url: 'https://libooks.com/',
     repo: '', // if no repo, the button will not show up
   },
   {
+    // BABIEKA
     id: nanoid(),
     img: 'babieka.png',
     title: 'Babieka | E-Commerce',
@@ -50,9 +51,10 @@ export const projectsData = [
     info2:
       'HTML5 | CSS3 | JavaScript (ES6+) | EJS Template Engine | NodeJS | ExpressJS | REST APIs | MySQL - Sequelize  | Postman | Git - GitHub | Trello - Slack | Scrum.',
     url: 'https://babieka.herokuapp.com/',
-    repo: 'https://github.com/LucasKoval/jfl-babieka', // if no repo, the button will not show up
+    repo: 'https://github.com/LucasKoval/jfl-babieka',
   },
   {
+    // DASHBOARD
     id: nanoid(),
     img: 'dashboard.png',
     title: 'Babieka | Dashboard',
@@ -60,30 +62,33 @@ export const projectsData = [
     info2:
       'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub | Trello - Slack | Scrum.',
     url: 'https://babieka-dashboard.vercel.app/',
-    repo: 'https://github.com/LucasKoval/jfl-dashboard', // if no repo, the button will not show up
+    repo: 'https://github.com/LucasKoval/jfl-dashboard',
   },
   {
+    // CATALOG VIEW
     id: nanoid(),
     img: 'aerolab.png',
-    title: "Aerolab's Catalog View",
+    title: 'Catalog View',
     info:
-      "Project made for the Aerolab coding challenge. It's a responsive catalog view for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system.",
+      'Catalog view app for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system.',
     info2:
       'HTML5 | JavaScript (ES6+) | CSS - Bootstrap | EJS Template Engine | NodeJS | ExpressJS | REST APIs | JWT | Postman | Git - GitHub.',
     url: 'https://aerolab-challenge-lkdev.herokuapp.com/',
-    repo: 'https://github.com/LucasKoval/Aerolab-Challenge', // if no repo, the button will not show up
+    repo: 'https://github.com/LucasKoval/Aerolab-Challenge',
   },
   {
+    // GITHUB PROFILE FINDER
     id: nanoid(),
     img: 'github.jpg',
     title: 'GitHub Profile Finder',
-    info: 'GitHub profile search engine developed for the "Take Home Test" challenge.',
+    info: 'GitHub profile search app.',
     info2:
       'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components - Bootstrap | GraphQL APIs | Postman | Git - GitHub.',
     url: 'https://take-home-test-lkdev.vercel.app/',
-    repo: 'https://github.com/LucasKoval/Take-Home-Test', // if no repo, the button will not show up
+    repo: 'https://github.com/LucasKoval/Take-Home-Test',
   },
   {
+    // POKEDEX
     id: nanoid(),
     img: 'pokedex.png',
     title: 'Pokedex Encyclopedia',
@@ -92,9 +97,10 @@ export const projectsData = [
     info2:
       'ReactJS | NextJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub.',
     url: 'https://pokedex-challenge-lkdev.vercel.app/',
-    repo: 'https://github.com/LucasKoval/Pokedex-Challenge', // if no repo, the button will not show up
+    repo: 'https://github.com/LucasKoval/Pokedex-Challenge',
   },
   {
+    // HACKER NEWS
     id: nanoid(),
     img: 'hacker.png',
     title: 'Hacker News Clone',
@@ -102,7 +108,7 @@ export const projectsData = [
       'Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.',
     info2: 'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Git - GitHub.',
     url: 'https://hacker-news-clone-lkdev.vercel.app/',
-    repo: 'https://github.com/LucasKoval/HackerNews-clone', // if no repo, the button will not show up
+    repo: 'https://github.com/LucasKoval/HackerNews-clone',
   },
 ];
 
