@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'lucas.png',
   paragraphOne:
-    'I was born and raised in Corrientes, Argentina on October 20, 1988 and I currently reside in the city of La Plata, Buenos Aires. I am a Full Stack Developer oriented to e-commerce development with NodeJS (Back-End) and ReactJS (Front-End) as the main pillars of my work.',
+    'I was born and raised in Corrientes, Argentina on October 20, 1988 and I currently reside in the city of La Plata, Buenos Aires. I am a Full Stack Developer (MERN) oriented to e-commerce development with NodeJS (Back-End) and ReactJS/NextJS (Front-End) as the main pillars of my work.',
   paragraphTwo:
     'I love what I do and I consider myself an organized, methodical, and collaborative person working in groups. I always seek to learn from my colleagues, as well as generate feedback that can help the team grow.',
   paragraphThree:
@@ -36,7 +36,7 @@ export const projectsData = [
     img: 'libooks.jpg',
     title: 'LiBooks | E-Commerce',
     info:
-      'Online Bookstore made for the the sale of physical and digital books powered by La Nación.',
+      'Online Bookstore made for the the sale of physical and digital books powered by La Nación (Argentina).',
     info2:
       'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components | Material-UI | JestJS | GraphQL APIs | Postman | Git - GitHub | Jira - MS-Teams | Scrum.',
     url: 'https://libooks.com/',
@@ -47,22 +47,22 @@ export const projectsData = [
     id: nanoid(),
     img: 'babieka.png',
     title: 'Babieka | E-Commerce',
-    info: "E-Commerce website dedicated to the sale of women's footwear.",
+    info: "Ecommerce website made for the sale of women's footwear.",
     info2:
       'HTML5 | CSS3 | JavaScript (ES6+) | EJS Template Engine | NodeJS | ExpressJS | REST APIs | MySQL - Sequelize  | Postman | Git - GitHub | Trello - Slack | Scrum.',
     url: 'https://babieka.herokuapp.com/',
-    repo: 'https://github.com/LucasKoval/jfl-babieka',
+    repo: 'https://github.com/LucasKoval/Babieka',
   },
   {
     // DASHBOARD
     id: nanoid(),
     img: 'dashboard.png',
     title: 'Babieka | Dashboard',
-    info: 'Statistics dashboard for Babieka website.',
+    info: 'Statistics dashboard for the Babieka website.',
     info2:
       'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub | Trello - Slack | Scrum.',
     url: 'https://babieka-dashboard.vercel.app/',
-    repo: 'https://github.com/LucasKoval/jfl-dashboard',
+    repo: 'https://github.com/LucasKoval/Babieka-Dashboard',
   },
   {
     // CATALOG VIEW
@@ -73,19 +73,19 @@ export const projectsData = [
       'Catalog view app for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system.',
     info2:
       'HTML5 | JavaScript (ES6+) | CSS - Bootstrap | EJS Template Engine | NodeJS | ExpressJS | REST APIs | JWT | Postman | Git - GitHub.',
-    url: 'https://aerolab-challenge-lkdev.herokuapp.com/',
-    repo: 'https://github.com/LucasKoval/Aerolab-Challenge',
+    url: 'https://catalog-view-lkdev.herokuapp.com/',
+    repo: 'https://github.com/LucasKoval/Catalog-View',
   },
   {
     // GITHUB PROFILE FINDER
     id: nanoid(),
     img: 'github.jpg',
     title: 'GitHub Profile Finder',
-    info: 'GitHub profile search app.',
+    info: 'GitHub profile search app. Project made for the Take Home Test 2021.',
     info2:
       'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components - Bootstrap | GraphQL APIs | Postman | Git - GitHub.',
-    url: 'https://take-home-test-lkdev.vercel.app/',
-    repo: 'https://github.com/LucasKoval/Take-Home-Test',
+    url: 'https://github-profile-finder-lkdev.vercel.app/',
+    repo: 'https://github.com/LucasKoval/GitHub-Profile-Finder',
   },
   {
     // POKEDEX
@@ -96,8 +96,8 @@ export const projectsData = [
       'Pokemon encyclopedia where you can search and view the different pokemons and their characteristics and statistics.',
     info2:
       'ReactJS | NextJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub.',
-    url: 'https://pokedex-challenge-lkdev.vercel.app/',
-    repo: 'https://github.com/LucasKoval/Pokedex-Challenge',
+    url: 'https://pokedex-lkdev.vercel.app/',
+    repo: 'https://github.com/LucasKoval/Pokedex-Encyclopedia',
   },
   {
     // HACKER NEWS
@@ -108,7 +108,7 @@ export const projectsData = [
       'Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.',
     info2: 'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Git - GitHub.',
     url: 'https://hacker-news-clone-lkdev.vercel.app/',
-    repo: 'https://github.com/LucasKoval/HackerNews-clone',
+    repo: 'https://github.com/LucasKoval/HackerNews-Clone',
   },
 ];
 
@@ -135,7 +135,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'codepen',
-      url: 'https://codepen.io/LucasKoval',
+      url: 'https://codepen.io/LucasKovalDev',
     },
   ],
 };
