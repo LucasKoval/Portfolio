@@ -72,6 +72,7 @@ const Contact = () => {
                 <td>Leadership</td>
                 <td>Problem Solving</td>
                 <td>Organization</td>
+                <td>Agility</td>
               </tr>
             </table>
           </div>
