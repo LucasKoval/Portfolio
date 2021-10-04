@@ -107,7 +107,7 @@ export const projectsData = [
     info:
       'Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.',
     info2: 'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Git - GitHub.',
-    url: 'https://hacker-news-clone-lkdev.vercel.app/',
+    url: 'https://hacker-news-lkdev.vercel.app/',
     repo: 'https://github.com/LucasKoval/HackerNews-Clone',
   },
 ];
