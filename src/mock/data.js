@@ -19,26 +19,36 @@ export const heroData = {
 export const aboutData = {
   img: 'lucas.png',
   paragraphOne:
-    'I was born and raised in Corrientes, Argentina on October 20, 1988 and I currently reside in the city of La Plata, Buenos Aires. I am a Full Stack Developer (MERN) oriented to e-commerce development with NodeJS (Back-End) and ReactJS/NextJS (Front-End) as the main pillars of my work.',
+    'I was born and raised in Corrientes, Argentina on October 20, 1988 and I currently reside in the city of La Plata, Buenos Aires. I am a Full Stack Developer (MERN) oriented to E-Commerce development with NodeJS (Back-End) and ReactJS (Front-End) as the main pillars of my work.',
   paragraphTwo:
     'I love what I do and I consider myself an organized, methodical, and collaborative person working in groups. I always seek to learn from my colleagues, as well as generate feedback that can help the team grow.',
   paragraphThree:
     'My goal is to grow in a company where I can strengthen my skills and acquire new ones.',
-  resume: 'https://drive.google.com/file/d/1YaJm8UvDhytAHgdgMO-DiDV9Hw66CZwv/view?usp=sharing',
-  curriculum: 'https://drive.google.com/file/d/1qKKQNZDalmue6n__C1Q2ux6nC0ZsYVUc/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1YHUgpjrOljlRV28je9q1xzhhA4Tup8yk/view?usp=sharing',
+  curriculum: 'https://drive.google.com/file/d/1Hg8K5mXbCA94MQfrhjKBjH0B-fcchboM/view?usp=sharing',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
+    // CHANEL
+    id: nanoid(),
+    img: 'chanel.png',
+    title: 'Chanel US | E-Commerce',
+    info: 'American online store of the well-known French fashion house Chanel (New York - US).',
+    info2:
+      'HTML | CSS | JavaScript (ES11) | JQuery | Kibo Personalization | SAP Hybris | Git - Bitbucket | MS Teams - Slack | Scrum - Jira.',
+    url: 'https://www.chanel.com/us/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
     // LIBOOKS
     id: nanoid(),
-    img: 'libooks.jpg',
+    img: 'libooks.png',
     title: 'LiBooks | E-Commerce',
-    info:
-      'Online Bookstore made for the the sale of physical and digital books powered by La Nación (Argentina).',
+    info: 'Online Bookstore made for the the sale of physical and digital books powered by La Nación (Argentina).',
     info2:
-      'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components | Material-UI | JestJS | GraphQL APIs | Postman | Git - GitHub | Jira - MS-Teams | Scrum.',
+      'ReactJS | NextJS | JavaScript (ES11) | CSS - Styled-Components | Material-UI | GraphQL APIs | Postman | Git - GitHub | MS Teams | Scrum - Jira.',
     url: 'https://libooks.com/',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,7 +59,7 @@ export const projectsData = [
     title: 'Babieka | E-Commerce',
     info: "Ecommerce website made for the sale of women's footwear.",
     info2:
-      'HTML5 | CSS3 | JavaScript (ES6+) | EJS Template Engine | NodeJS | ExpressJS | REST APIs | MySQL - Sequelize  | Postman | Git - GitHub | Trello - Slack | Scrum.',
+      'HTML5 | CSS3 | JavaScript (ES11) | EJS Template Engine | NodeJS | ExpressJS | REST APIs | MySQL - Sequelize  | Postman | Git - GitHub | Trello - Slack | Scrum.',
     url: 'https://babieka.herokuapp.com/',
     repo: 'https://github.com/LucasKoval/Babieka',
   },
@@ -60,7 +70,7 @@ export const projectsData = [
     title: 'Babieka | Dashboard',
     info: 'Statistics dashboard for the Babieka website.',
     info2:
-      'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub | Trello - Slack | Scrum.',
+      'ReactJS | JavaScript (ES11) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub | Trello - Slack | Scrum.',
     url: 'https://babieka-dashboard.vercel.app/',
     repo: 'https://github.com/LucasKoval/Babieka-Dashboard',
   },
@@ -69,10 +79,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'aerolab.png',
     title: 'Catalog View',
-    info:
-      'Catalog view app for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system.',
+    info: 'Catalog view app for a loyalty program application. The main goal of the product is to help users redeem items through a points-based system.',
     info2:
-      'HTML5 | JavaScript (ES6+) | CSS - Bootstrap | EJS Template Engine | NodeJS | ExpressJS | REST APIs | JWT | Postman | Git - GitHub.',
+      'HTML5 | JavaScript (ES11) | CSS - Bootstrap | EJS Template Engine | NodeJS | ExpressJS | REST APIs | JWT | Postman | Git - GitHub.',
     url: 'https://catalog-view-lkdev.herokuapp.com/',
     repo: 'https://github.com/LucasKoval/Catalog-View',
   },
@@ -83,7 +92,7 @@ export const projectsData = [
     title: 'GitHub Profile Finder',
     info: 'GitHub profile search app. Project made for the Take Home Test 2021.',
     info2:
-      'ReactJS | NextJS | JavaScript (ES6+) | CSS - Styled-Components - Bootstrap | GraphQL APIs | Postman | Git - GitHub.',
+      'ReactJS | NextJS | JavaScript (ES11) | CSS - Styled-Components - Bootstrap | GraphQL APIs | Postman | Git - GitHub.',
     url: 'https://github-profile-finder-lkdev.vercel.app/',
     repo: 'https://github.com/LucasKoval/GitHub-Profile-Finder',
   },
@@ -92,10 +101,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'pokedex.png',
     title: 'Pokedex Encyclopedia',
-    info:
-      'Pokemon encyclopedia where you can search and view the different pokemons and their characteristics and statistics.',
+    info: 'Pokemon encyclopedia where you can search and view the different pokemons and their characteristics and statistics.',
     info2:
-      'ReactJS | NextJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub.',
+      'ReactJS | NextJS | JavaScript (ES11) | CSS - Bootstrap | REST APIs | Postman | Git - GitHub.',
     url: 'https://pokedex-lkdev.vercel.app/',
     repo: 'https://github.com/LucasKoval/Pokedex-Encyclopedia',
   },
@@ -104,9 +112,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'hacker.png',
     title: 'Hacker News Clone',
-    info:
-      'Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.',
-    info2: 'ReactJS | JavaScript (ES6+) | CSS - Bootstrap | REST APIs | Git - GitHub.',
+    info: 'Clone of Hacker News, a social news website that focuses on computing and entrepreneurship.',
+    info2: 'ReactJS | JavaScript (ES11) | CSS - Bootstrap | REST APIs | Git - GitHub.',
     url: 'https://hacker-news-lkdev.vercel.app/',
     repo: 'https://github.com/LucasKoval/HackerNews-Clone',
   },

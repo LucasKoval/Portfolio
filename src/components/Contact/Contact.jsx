@@ -19,7 +19,7 @@ const Contact = () => {
                 className="contact-wrapper__text"
                 style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
               >
-                <td>JavaScript | ES6+</td>
+                <td>JavaScript | ES11</td>
                 <td>HTML | EJS | JSX</td>
                 <td>CSS | Styled-Components </td>
                 <td>Bootstrap | Material-UI </td>
@@ -30,7 +30,7 @@ const Contact = () => {
               >
                 <td>ReactJS</td>
                 <td>NextJS</td>
-                <td>Responsive Design</td>
+                <td>JQuery</td>
                 <td>MVC Architecture</td>
               </tr>
             </table>
@@ -57,9 +57,9 @@ const Contact = () => {
                 style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
               >
                 <td>Postman</td>
-                <td>Git | GitHub</td>
-                <td>Trello | Jira</td>
-                <td>Slack | MS Teams</td>
+                <td>Git | GitHub | Azure</td>
+                <td>Jira | Trello</td>
+                <td>MS Teams | Slack</td>
                 <td>Agile Methodologies - Scrum</td>
               </tr>
             </table>
