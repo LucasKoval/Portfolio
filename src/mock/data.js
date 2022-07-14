@@ -24,8 +24,8 @@ export const aboutData = {
     'I love what I do and I consider myself an organized, methodical, and collaborative person working in groups. I always seek to learn from my colleagues, as well as generate feedback that can help the team grow.',
   paragraphThree:
     'My goal is to grow in a company where I can strengthen my skills and acquire new ones.',
-  resume: 'https://drive.google.com/file/d/1YHUgpjrOljlRV28je9q1xzhhA4Tup8yk/view?usp=sharing',
-  curriculum: 'https://drive.google.com/file/d/1Hg8K5mXbCA94MQfrhjKBjH0B-fcchboM/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1zOIoFyWUbFUF8BNXjGQlqpbztU90PRmr/view?usp=sharing',
+  curriculum: 'https://drive.google.com/file/d/1D6ng91SC9Giyi-y8dWvO4oxRLRYXE1Yg/view?usp=sharing',
 };
 
 // PROJECTS DATA
@@ -37,7 +37,7 @@ export const projectsData = [
     title: 'Chanel US | E-Commerce',
     info: 'American online store of the well-known French fashion house Chanel (New York - US).',
     info2:
-      'HTML | CSS | JavaScript (ES11) | JQuery | Kibo Personalization | SAP Hybris | Git - Bitbucket | MS Teams - Slack | Scrum - Jira.',
+      'HTML | CSS | JavaScript (ES11) | JQuery | Kibo Personalization | SAP Hybris | Git - Bitbucket | MS Teams | Scrum - Jira.',
     url: 'https://www.chanel.com/us/',
     repo: '', // if no repo, the button will not show up
   },

@@ -20,8 +20,9 @@ const Contact = () => {
                 style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
               >
                 <td>JavaScript | ES11</td>
-                <td>HTML | EJS | JSX</td>
-                <td>CSS | Styled-Components </td>
+                <td>JQuery</td>
+                <td>HTML | EJS</td>
+                <td>CSS | SASS | Styled-Components </td>
                 <td>Bootstrap | Material-UI </td>
               </tr>
               <tr
@@ -30,8 +31,9 @@ const Contact = () => {
               >
                 <td>ReactJS</td>
                 <td>NextJS</td>
-                <td>JQuery</td>
                 <td>MVC Architecture</td>
+                <td>MySQL | Sequelize</td>
+                <td>MongoDB | Mongoose</td>
               </tr>
             </table>
           </div>
@@ -48,18 +50,18 @@ const Contact = () => {
               >
                 <td>NodeJS</td>
                 <td>ExpressJS</td>
-                <td>JestJS</td>
-                <td>MySQL | Sequelize</td>
+                <td>PassportJS</td>
+                <td>JWT</td>
                 <td>REST APIs | GraphQL APIs</td>
               </tr>
               <tr
                 className="contact-wrapper__text"
                 style={{ display: 'flex', flexFlow: 'column', marginBottom: '1rem' }}
               >
-                <td>Postman</td>
-                <td>Git | GitHub | Azure</td>
-                <td>Jira | Trello</td>
+                <td>Git | Postman</td>
+                <td>GitHub | Bitbucket</td>
                 <td>MS Teams | Slack</td>
+                <td>Jira | Trello</td>
                 <td>Agile Methodologies - Scrum</td>
               </tr>
             </table>
@@ -67,12 +69,12 @@ const Contact = () => {
           <div className="contact-wrapper">
             <table style={{ display: 'flex', justifyContent: 'center' }}>
               <tr className="contact-wrapper__text" style={{ display: 'flex', flexFlow: 'column' }}>
+                <td>Agility</td>
                 <td>Teamwork</td>
                 <td>Communication</td>
                 <td>Leadership</td>
                 <td>Problem Solving</td>
                 <td>Organization</td>
-                <td>Agility</td>
               </tr>
             </table>
           </div>
